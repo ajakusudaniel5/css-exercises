@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+.odd-ones {
+    background-color: pink;
+    font-family: "Verdana","DejaVu Sans", "sans-serif";
+}
+#second-one {
+    color: blue;
+    font-size: 36px;
+}

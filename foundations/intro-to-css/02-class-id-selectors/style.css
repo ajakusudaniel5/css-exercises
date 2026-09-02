@@ -1,9 +1,16 @@
 /* Add CSS Styling */
 .odd-ones {
-    background-color: pink;
+    background-color: rgb(238, 137, 154);
     font-family: "Verdana","DejaVu Sans", "sans-serif";
 }
 #second-one {
-    color: blue;
+    color: rgb(50, 50, 145);
     font-size: 36px;
+}
+#third-one,#fourth-one {
+    font-size: 24px;
+}
+#fourth-one {
+    font-weight: bold;
+    background-color: rgb(118, 202, 118);
 }

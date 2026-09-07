@@ -4,17 +4,29 @@ body {
 }
 
 .card {
-  width: 400px;
+  width:800pt;
+  height: auto;
   background: white;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title,
-.content,
-.button-container {
+.content {
   background: dodgerblue;
+  padding: 10px;
+  margin: 12px;
+}
+.card .button-container{
+   background: dodgerblue;
+  padding:10px 200px 10px ;
+  margin: 12px;
 }
 
-button {
+.card .button-container button {
   background: white;
+  padding: 10px 20px 10px 20px;
+  display: block;
+  
+
 }

@@ -12,7 +12,21 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content:space-between;
+
 }
+
+.header1 {
+  display: flex; 
+  justify-content: flex-start;
+  }
+  
+.header2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -35,14 +49,18 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 10px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 10px;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  
 }

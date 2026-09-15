@@ -9,8 +9,12 @@ body {
 
 .statements {
   display: flex;
-  justify-content: space-around;
-  align-items: safe;
+  
+}
+
+.text {
+  align-self: auto;
+  gap: 42px;
 }
 
 img {
